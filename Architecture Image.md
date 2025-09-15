@@ -1,1 +1,2 @@
 <img width="1536" height="1024" alt="Copilot_20250915_110713" src="https://github.com/user-attachments/assets/1c60b309-1e75-4dbb-851b-cecf1edfcadc" />
+This visual maps out the entire flow from hardware (RU, DU, CU) to software layers (AI model development, cloud orchestration, telemetry, and optimization logic). It shows how pilot signals and user distribution data feed into Microsoft Azure and AWS AI engines, which then generate power-saving decisions that loop back into the CU and antenna control logic.
