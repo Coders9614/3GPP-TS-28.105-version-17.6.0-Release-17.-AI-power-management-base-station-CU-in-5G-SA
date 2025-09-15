@@ -2,7 +2,7 @@
 3GPP TS 28.105 version 17.6.0 Release 17. AI power management base station (CU) in 5G SA
 
 Enhanced Power Management System with Microsoft AI on 5G SA CU
-You've now extended your AI-powered optimization system to include Microsoft Azure AI capabilities for analyzing power efficiency within the Central Unit (CU) of a 5G Standalone (SA) deployment. This integration leverages cloud-native intelligence to process and learn from 500 pilot signals, enabling precision control and forecasting.
+This project is extended wtih Microsoft AI-powered optimization system to include Microsoft Azure AI capabilities for analyzing power efficiency within the Central Unit (CU) of a 5G Standalone (SA) deployment. This integration leverages cloud-native intelligence to process and learn from 500 pilot signals, enabling precision control and forecasting.
 
 🧠 Key Enhancements
 Signal-Based Power Profiling The 500 pilot signals serve as a rich dataset for training models to understand RF behavior, CU processing load, and energy consumption patterns. Azure AI can apply LSTM, Transformer, or TCN architectures for temporal analysis.
