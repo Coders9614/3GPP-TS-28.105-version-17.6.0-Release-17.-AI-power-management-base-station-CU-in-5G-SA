@@ -1,1 +1,24 @@
+import pandas as pd
+import numpy as np
+
+# Simulated pilot signal data (RSRP, SINR, Beam ID)
+def collect_pilot_signals(num_users=500):
+    data = {
+        'user_id': np.arange(num_users),
+        'rsrp': np.random.normal(-90, 5, num_users),
+        'sinr': np.random.normal(20, 3, num_users),
+        'beam_id': np.random.randint(1, 8, num_users),
+        'timestamp': pd.Timestamp.now()
+    }
+    return pd.DataFrame(data)
+
+# Simulated user distribution data
+def collect_user_distribution():
+    return {
+        'sector_load': np.random.uniform(0.1, 1.0, 8),  # 8 antenna sectors
+        'mobility_index': np.random.normal(0.5, 0.1, 8)
+    }
+
+pilot_df = collect_pilot_signals()
+user_dist = collect_user_distribution()
 
