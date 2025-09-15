@@ -1,0 +1,11 @@
+Data Transfer to Microsoft AI
+
+from azure.storage.blob import BlobServiceClient
+
+def upload_to_azure_blob(df, container_name, blob_name):
+    connection_string = "your_azure_blob_connection_string"
+    blob_service = BlobServiceClient.from_connection_string(connection_string)
+    blob_client = blob_service.get_blob_client(container=container_name, blob=blob_name)
+    blob_client.upload_blob(df.to_csv(index=False), overwrite=True)
+
+upload_to_azure_blob(pilot_df, "pilotdata", "signals.csv")
