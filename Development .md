@@ -1,7 +1,7 @@
 # 3GPP-TS-28.105-version-17.6.0-Release-17.-AI-power-management-CU-in-5G-SA
 3GPP TS 28.105 version 17.6.0 Release 17. AI power management base station (CU) in 5G SA
 
-nhanced Power Management System with Microsoft AI on 5G SA CU
+Enhanced Power Management System with Microsoft AI on 5G SA CU
 You've now extended your AI-powered optimization system to include Microsoft Azure AI capabilities for analyzing power efficiency within the Central Unit (CU) of a 5G Standalone (SA) deployment. This integration leverages cloud-native intelligence to process and learn from 500 pilot signals, enabling precision control and forecasting.
 
 🧠 Key Enhancements
